@@ -7,7 +7,7 @@ let settings = {
 
 $.ajax(settings).done(function (response) {
     data=response
-    $('h3').delete()
+    $('h3').remove()
     $('body').append('<button onclick="generateAll()">Показать Результаты</button>')
 });
 function generateAll() {
