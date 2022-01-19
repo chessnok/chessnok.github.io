@@ -49,9 +49,10 @@ function generateAll() {
             easy.push(num);
         }
     }
-    $('body').append(`Простых чисел: ${easy.length}\n`)
-    $('body').append(`Общительных чисел: ${sociables.length} \nи это : \n${sociables}\n`)
-    $('body').append(`Идеальных чисел: ${ideal.length} \nи это : \n${ideal}\n`)
-    $('body').append(`Дружественных чисел: ${frendly.length} \nи это : \n${frendly}\n`)
+    $('.result').clear()
+    $('.result').append(`Простых чисел: ${easy.length}\n`)
+    $('.result').append(`Общительных чисел: ${sociables.length} \nи это : \n${sociables}\n`)
+    $('.result').append(`Идеальных чисел: ${ideal.length} \nи это : \n${ideal}\n`)
+    $('.result').append(`Дружественных чисел: ${frendly.length} \nи это : \n${frendly}\n`)
 
 }
