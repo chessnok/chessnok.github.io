@@ -5,5 +5,9 @@ let settings = {
 };
 
 $.ajax(settings).done(function (response) {
+    $('body').append('<button onclick="generateAll()">')
     console.log(response);
 });
+function generateAll() {
+    
+}
