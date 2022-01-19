@@ -49,7 +49,7 @@ function generateAll() {
             easy.push(num);
         }
     }
-    console.log(`Простых чисел: ${easy.length}\nи это : \n${easy}\n`)
+    console.log(`Простых чисел: ${easy.length}\n`)
     console.log(`Общительных чисел: ${sociables.length} \nи это : \n${sociables}\n`)
     console.log(`Идеальных чисел: ${ideal.length} \nи это : \n${ideal}\n`)
     console.log(`Дружественных чисел: ${frendly.length} \nи это : \n${frendly}\n`)
