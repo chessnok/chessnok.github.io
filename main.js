@@ -49,7 +49,7 @@ function generateAll() {
             easy.push(num);
         }
     }
-    $('.result').empty()
+    // $('.result').empty()
     $('.result').append(`Простых чисел: ${easy.length}\n`)
     $('.result').append(`Общительных чисел: ${sociables.length} \nи это : \n${sociables}\n`)
     $('.result').append(`Идеальных чисел: ${ideal.length} \nи это : \n${ideal}\n`)
