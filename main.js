@@ -51,9 +51,9 @@ function generateAll() {
         }
     }
     $('.result').empty()
-    $('.result').append(`Простых чисел: ${easy.length}\n`)
-    $('.result').append(`Общительных чисел: ${sociables.length} \nи это : \n${sociables}\n`)
-    $('.result').append(`Идеальных чисел: ${ideal.length} \nи это : \n${ideal}\n`)
+    $('.result').append(`Простых чисел: ${easy.length}\n\t`)
+    $('.result').append(`Общительных чисел: ${parseInt(sociables.length)*4} \nи это : \n${sociables}\n\t`)
+    $('.result').append(`Идеальных чисел: ${ideal.length} \nи это : \n${ideal}\n\t`)
     $('.result').append(`Дружественных чисел: ${frendly.length} \nи это : \n${frendly}\n`)
 
 }
